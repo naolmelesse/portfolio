@@ -6,3 +6,7 @@
   font-family: "burtons";
   src: url("../public/Burtons.otf");
 }
+
+body{
+  background-color: rgb(240, 240, 240);
+}
