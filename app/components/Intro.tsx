@@ -10,7 +10,10 @@ export default function Intro(){
     return(
         <div className='  lg:flex text py-10'>
             <div className="w-[50%]">
-                <h2 className=' text-5xl py-2 text-purple-500 font-medium md:text-6xl'>Hi, I'm Naol 👀</h2>
+                <h2 className=' text-5xl py-2 font-medium md:text-6xl'>Hi, I'm    <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-purple-500 relative inline-block">
+                        <span className="relative text-white">Naol</span>
+                    </span> 👀
+                </h2>
                 <h3 className=' text-2xl py-2  md:text-3xl'>Front-end Developer</h3>
                 <p className='text-md font-light py-5 leading-8 text-gray-800'>
                     I am a front-end developer with expertise in React.js and Next.js.I have also 
