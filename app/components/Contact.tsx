@@ -25,7 +25,7 @@ export default function Contact(){
         backgroundImage: `url('/space-2.jpg')`
         }}>
             <h2 className="text-[4rem] text-center font-semibold mb-4">Make Contact</h2>
-        <div className="w-1/2 p-6">
+        <div className="lg:w-1/2 p-6">
             <form onSubmit={handleSubmit}>
                 <div className="mb-4">
                     <label htmlFor="name" className="block text-gray-100 font-medium mb-2">Name</label>

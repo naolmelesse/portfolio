@@ -8,8 +8,8 @@ import {
 
 export default function Intro(){
     return(
-        <div className='  lg:flex text py-14'>
-            <div className="w-[50%]">
+        <div className='flex flex-col  lg:flex-row text py-14'>
+            <div className="lg:w-[50%]">
                 <h2 className=' text-5xl py-2 font-medium md:text-6xl'>Hi, I'm    <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-purple-500 relative inline-block">
                         <span className="relative text-white">Naol</span>
                     </span> 👀
@@ -22,7 +22,7 @@ export default function Intro(){
                     I love solving problems and bringing people's ideas to life. I am always finding new ways
                     to develop myself and follow current tech trends.
                 </p>
-                <div className="text-3xl flex justify-start gap-8 py-3 text-gray-600">
+                <div className="text-3xl flex justify-center lg:justify-start gap-8 py-3 text-gray-600">
                     <a className="hover:text-gray-800 transition duration-400" target="_blank" href="https://www.linkedin.com/in/naol-melesse-706585226/"><AiFillLinkedin /></a> 
                     <a className="hover:text-gray-800 transition duration-400" target="_blank" href="https://www.github.com/naolmelesse"><AiFillGithub /></a> 
                     <a className="hover:text-gray-800 transition duration-400" target="_blank" href="mailto:naolmelesse91@gmail.com"><AiFillMail /></a>
