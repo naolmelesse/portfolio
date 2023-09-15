@@ -8,5 +8,8 @@
 }
 
 body{
-  background-color: rgb(240, 240, 240);
+  background-color: #CCC8AA;
+  background-image: url('../public/galaxy.avif');
+  background-attachment: fixed;
+  background-size: cover;
 }

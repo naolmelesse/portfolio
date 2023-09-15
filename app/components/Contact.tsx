@@ -21,49 +21,51 @@ export default function Contact(){
       };
 
     return(
-    <div className="w-2/5 mx-[auto] my-2">
-        <div className="bg-white p-6 rounded-2xl shadow-lg">
-            <h2 className="text-2xl text-gray-800 font-semibold mb-4">🚀 Contact Me</h2>
+    <div className="flex flex-col lg:flex-row items-center justify-center w-full bg-cover text-gray-100 mx-[auto]"    style={{
+        backgroundImage: `url('/space-2.jpg')`
+        }}>
+            <h2 className="text-[4rem] text-center font-semibold mb-4">Make Contact</h2>
+        <div className="w-1/2 p-6">
             <form onSubmit={handleSubmit}>
                 <div className="mb-4">
-                    <label htmlFor="name" className="block text-gray-800 font-medium mb-2">Name</label>
+                    <label htmlFor="name" className="block text-gray-100 font-medium mb-2">Name</label>
                     <input
                         type="text"
                         name="name"
                         value={formData.name}
                         onChange={handleChange}
-                        className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:border-purple-800"
+                        className="w-full p-2 border bg-transparent border-gray-300 rounded focus:outline-none focus:border-purple-800"
                         required
                     />
                 </div>
                 <div className="mb-4">
-                    <label htmlFor="email" className="block text-gray-800 font-medium mb-2">Email</label>
+                    <label htmlFor="email" className="block text-gray-100 font-medium mb-2">Email</label>
                     <input
                         type="email"
                         name="email"
                         value={formData.email}
                         onChange={handleChange}
-                        className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:border-purple-800"
+                        className="w-full p-2 border bg-transparent border-gray-300 rounded focus:outline-none focus:border-purple-800"
                         required
                     />
                 </div>
                 <div className="mb-4">
-                    <label htmlFor="message" className="block text-gray-800 font-medium mb-2">Message</label>
+                    <label htmlFor="message" className="block text-gray-100 font-medium mb-2">Message</label>
                     <textarea
                     id="message"
                     name="message"
                     value={formData.message}
                     onChange={handleChange}
-                    className="w-full p-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500 h-32 resize-none"
+                    className="w-full p-2 border bg-transparent border-gray-300 rounded focus:outline-none focus:border-purple-500 h-32 resize-none"
                     required
                     />
                 </div>
                 <div className="text-center">
                     <button
                     type="submit"
-                    className="bg-purple-500 text-white py-2 px-4 rounded hover:bg-purple-600 transition duration-300"
+                    className="bg-transparent backdrop-blur border text-white py-2 px-4 rounded hover:backdrop-blur-lg transition duration-300"
                     >
-                    Send Message
+                    🚀 SEND MESSAGE
                     </button>
                 </div>
             </form>

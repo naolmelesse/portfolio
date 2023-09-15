@@ -1,12 +1,11 @@
-import Contact from "../components/Contact";
-import Nav from "../components/Nav";
+'use client';
 
-export default function About(){
+import About from "../components/About";
+
+export default function AboutPage(){
     return(
         <div>
-            {/* <Nav/>
             <About/>
-            <Contact/> */}
         </div>
     )
 }

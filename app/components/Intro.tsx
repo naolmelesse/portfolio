@@ -8,7 +8,7 @@ import {
 
 export default function Intro(){
     return(
-        <div className='  lg:flex text py-10'>
+        <div className='  lg:flex text py-14'>
             <div className="w-[50%]">
                 <h2 className=' text-5xl py-2 font-medium md:text-6xl'>Hi, I'm    <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-purple-500 relative inline-block">
                         <span className="relative text-white">Naol</span>
