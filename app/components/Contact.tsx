@@ -7,18 +7,19 @@ export default function Contact(){
         message: '',
       });
     
-      const handleChange = (e) => {
-        const { name, value } = e.target;
-        setFormData({
-          ...formData,
-          [name]: value,
-        });
-      };
+    //   const handleChange = (e: any) => {
+    //       console.log(e.target);
+    //     // const { name : string, value } = e.target;
+    //     // setFormData({
+    //     //   ...formData,
+    //     //   [name]: value,
+    //     // });
+    //   };
     
-      const handleSubmit = (e) => {
-        e.preventDefault();
-        // Add code to handle form submission here (e.g., sending an email or API request).
-      };
+    //   const handleSubmit = (e: any) => {
+    //     e.preventDefault();
+    //     // Add code to handle form submission here (e.g., sending an email or API request).
+    //   };
 
     return(
     <div className="flex flex-col lg:flex-row items-center justify-center w-full bg-cover text-gray-100 mx-[auto]"    style={{
@@ -26,14 +27,13 @@ export default function Contact(){
         }}>
             <h2 className="text-[4rem] text-center font-semibold mb-4">Make Contact</h2>
         <div className="lg:w-1/2 p-6">
-            <form onSubmit={handleSubmit}>
+            <form>
                 <div className="mb-4">
                     <label htmlFor="name" className="block text-gray-100 font-medium mb-2">Name</label>
                     <input
                         type="text"
                         name="name"
                         value={formData.name}
-                        onChange={handleChange}
                         className="w-full p-2 border bg-transparent border-gray-300 rounded focus:outline-none focus:border-purple-800"
                         required
                     />
@@ -44,7 +44,7 @@ export default function Contact(){
                         type="email"
                         name="email"
                         value={formData.email}
-                        onChange={handleChange}
+                        
                         className="w-full p-2 border bg-transparent border-gray-300 rounded focus:outline-none focus:border-purple-800"
                         required
                     />
@@ -55,7 +55,7 @@ export default function Contact(){
                     id="message"
                     name="message"
                     value={formData.message}
-                    onChange={handleChange}
+                    
                     className="w-full p-2 border bg-transparent border-gray-300 rounded focus:outline-none focus:border-purple-500 h-32 resize-none"
                     required
                     />
