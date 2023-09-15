@@ -10,7 +10,7 @@ export default function Intro(){
     return(
         <div className='flex flex-col  lg:flex-row text py-14'>
             <div className="lg:w-[50%]">
-                <h2 className=' text-5xl py-2 font-medium md:text-6xl'>Hi, I'm    <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-purple-500 relative inline-block">
+                <h2 className=' text-5xl py-2 font-medium md:text-6xl'>Hi, I&apos;m    <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-purple-500 relative inline-block">
                         <span className="relative text-white">Naol</span>
                     </span> 👀
                 </h2>
@@ -19,7 +19,7 @@ export default function Intro(){
                     I am a front-end developer with expertise in React.js and Next.js.I have also 
                     worked with Node.js. I have experience in developing medium to enterprise-level
                     web applications using various technologies and frameworks. As a front-end developer, 
-                    I love solving problems and bringing people's ideas to life. I am always finding new ways
+                    I love solving problems and bringing people&apos;s ideas to life. I am always finding new ways
                     to develop myself and follow current tech trends.
                 </p>
                 <div className="text-3xl flex justify-center lg:justify-start gap-8 py-3 text-gray-600">
