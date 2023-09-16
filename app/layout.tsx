@@ -6,8 +6,8 @@ import Nav from './components/Nav'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Naol Melesse Portfolio',
-  description: 'Made with 🖤 by Naol',
+  title: 'Naol Melesse',
+  description: 'Crafted with 🖤 by Naol',
 }
 
 export default function RootLayout({

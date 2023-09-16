@@ -25,7 +25,7 @@ export default function Contact(){
     <div className="flex flex-col lg:flex-row items-center justify-center w-full bg-cover text-gray-100 mx-[auto]"    style={{
         backgroundImage: `url('/space-2.jpg')`
         }}>
-            <h2 className="text-[4rem] text-center font-semibold mb-4">Make Contact</h2>
+            <h2 className="md:text-[4rem] text-center font-semibold mb-4">Make Contact</h2>
         <div className="lg:w-1/2 p-6">
             <form>
                 <div className="mb-4">

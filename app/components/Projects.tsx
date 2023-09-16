@@ -14,13 +14,11 @@ export default function Projects(){
         </div>
 
         <div className="flex flex-col items-center justify-center flex-wrap gap-10 py-10">
-          <div className="p-2 flex flex-col lg:flex-row gap-5 items-center w-full text-[#000]">
+          <div className="p-2 md:my-10 flex flex-col lg:flex-row gap-5 items-center w-full text-[#000]">
               <div className="p-2 flex flex-col gap-2">
                   <h3 className=" text-lg">📌 GoBus - A bus booking web-app</h3>
-                  <p>⛏️ Tech Stack: MERN</p>
-                  <p className="font-light">📝 A web app where people can host their car for a few days or get a car from host nearby. The idea is to create 
-                    a platform where people can get a car nearby easily and with affordable prices from others. Or people can make money of their
-                    extra car laying around or start a small car hosting business. 
+                  <p>⛏️ Tech Stack: NextJs, Tailwind, Strapi</p>
+                  <p className="font-light">📝 A bus ticket booking web app for easy ticket booking and much more.
                   </p>
                 </div>
               <Image 
@@ -31,7 +29,7 @@ export default function Projects(){
                 src={gobus}
                 />
           </div>
-          <div className="p-2 flex flex-col lg:flex-row gap-5 items-center w-full text-[#000]">
+          <div className="p-2 md:my-10 flex flex-col lg:flex-row gap-5 items-center w-full text-[#000]">
               <Image 
                 alt={"car sharing Web landing page"}
                 className="border border-gray-300"
@@ -44,7 +42,7 @@ export default function Projects(){
                   <p>⛏️ Tech Stack: MERN</p>
                   <p className="font-light">📝 A web app where people can host their car for a few days or get a car from host nearby. The idea is to create 
                     a platform where people can get a car nearby easily and with affordable prices from others. Or people can make money of their
-                    extra car laying around or start a small car hosting business. 
+                    extra car that's laying around or start a small car hosting business. 
                   </p>
                 </div>
           </div>

@@ -14,7 +14,7 @@ export default function Footer(){
                     <a className="hover:text-gray-800 transition duration-400" target="_blank" href="https://www.github.com/naolmelesse"><AiFillGithub /></a> 
                     <a className="hover:text-gray-800 transition duration-400" target="_blank" href="mailto:naolmelesse91@gmail.com"><AiFillMail /></a>
                 </div>
-                <p className="font-light text-[0.9rem]" >&copy;Naol Melesse 2023.🧶 Crafted with love  by Naol.</p>
+                <p className="font-light text-[0.9rem]" >&copy;Naol Melesse 2023.🧶 Crafted with 🖤  by Naol.</p>
             </div>
         </footer>
     )
