@@ -42,7 +42,7 @@ export default function Projects(){
                   <p>⛏️ Tech Stack: MERN</p>
                   <p className="font-light">📝 A web app where people can host their car for a few days or get a car from host nearby. The idea is to create 
                     a platform where people can get a car nearby easily and with affordable prices from others. Or people can make money of their
-                    extra car that's laying around or start a small car hosting business. 
+                    extra car that&apos;s laying around or start a small car hosting business. 
                   </p>
                 </div>
           </div>
