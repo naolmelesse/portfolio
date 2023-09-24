@@ -10,10 +10,6 @@ export default function Projects(){
         <div className="py-10]">
         <div>
           <h3 className="text-3xl py-1  ">Projects</h3>
-          <p className="text-md py-2 leading-8 text-gray-800 ">
-          In my portfolio, you will find a diverse range of projects that highlight
-           my <span className="text-purple-500">skills</span> and <span className="text-purple-500">creativity</span>. Each project showcases my ability to combine aesthetic appeal with technical proficiency.
-          </p>
         </div>
         <div className="p-2 md:my-10 flex flex-col lg:flex-row gap-5 items-center w-full text-[#000]">
               <Image 
