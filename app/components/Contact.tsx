@@ -27,13 +27,12 @@ export default function Contact(){
         }}>
             <h2 className="md:text-[4rem] text-center font-semibold mb-4">Make Contact</h2>
         <div className="lg:w-1/2 p-6">
-            <form>
+            <form action="mailto:naolmelesse91@gmail.com" method="POST">
                 <div className="mb-4">
                     <label htmlFor="name" className="block text-gray-100 font-medium mb-2">Name</label>
                     <input
                         type="text"
                         name="name"
-                        value={formData.name}
                         className="w-full p-2 border bg-transparent border-gray-300 rounded focus:outline-none focus:border-purple-800"
                         required
                     />
@@ -42,9 +41,7 @@ export default function Contact(){
                     <label htmlFor="email" className="block text-gray-100 font-medium mb-2">Email</label>
                     <input
                         type="email"
-                        name="email"
-                        value={formData.email}
-                        
+                        name="email"  
                         className="w-full p-2 border bg-transparent border-gray-300 rounded focus:outline-none focus:border-purple-800"
                         required
                     />
@@ -54,8 +51,6 @@ export default function Contact(){
                     <textarea
                     id="message"
                     name="message"
-                    value={formData.message}
-                    
                     className="w-full p-2 border bg-transparent border-gray-300 rounded focus:outline-none focus:border-purple-500 h-32 resize-none"
                     required
                     />
