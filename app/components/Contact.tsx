@@ -1,11 +1,10 @@
 import { useState } from "react";
 
 export default function Contact(){
-    const [formData, setFormData] = useState({
-        name: '',
-        email: '',
-        message: '',
-      });
+    const [fullname, setFullname] = useState("");
+    const [email, setEmail] = useState("");
+    const [subject, setSubject] = useState("");
+    const [message, setMessage] = useState("");
     
     //   const handleChange = (e: any) => {
     //       console.log(e.target);
@@ -27,32 +26,57 @@ export default function Contact(){
         }}>
             <h2 className="md:text-[4rem] text-center font-semibold mb-4">Make Contact</h2>
         <div className="lg:w-1/2 p-6">
-            <form action="mailto:naolmelesse91@gmail.com" method="POST">
+            <form method="POST">
                 <div className="mb-4">
-                    <label htmlFor="name" className="block text-gray-100 font-medium mb-2">Name</label>
+                    <label htmlFor="name" className="block text-gray-100 font-medium mb-2">Name<span className="text-red-500">*</span></label>
                     <input
                         type="text"
                         name="name"
                         className="w-full p-2 border bg-transparent border-gray-300 rounded focus:outline-none focus:border-purple-800"
                         required
+                        onChange={(e) => {
+                            setFullname(e.target.value);
+                          }}
                     />
                 </div>
                 <div className="mb-4">
-                    <label htmlFor="email" className="block text-gray-100 font-medium mb-2">Email</label>
+                    <label htmlFor="email" className="block text-gray-100 font-medium mb-2">Email<span className="text-red-500">*</span></label>
                     <input
                         type="email"
                         name="email"  
                         className="w-full p-2 border bg-transparent border-gray-300 rounded focus:outline-none focus:border-purple-800"
                         required
+                        onChange={(e) => {
+                            setEmail(e.target.value);
+                          }}
                     />
                 </div>
                 <div className="mb-4">
-                    <label htmlFor="message" className="block text-gray-100 font-medium mb-2">Message</label>
+                    <label
+                        htmlFor="subject"
+                        className="block text-gray-100 font-medium mb-2">
+                        Subject<span className="text-red-500">*</span>
+                    </label>
+                    <input
+                        type="text"
+                        name="subject"
+                        value={subject}
+                        onChange={(e) => {
+                        setSubject(e.target.value);
+                        }}
+                        className="w-full p-2 border bg-transparent border-gray-300 rounded focus:outline-none focus:border-purple-800"
+                    />
+                </div>
+                <div className="mb-4">
+                    <label htmlFor="message" className="block text-gray-100 font-medium mb-2">Message<span className="text-red-500">*</span></label>
                     <textarea
                     id="message"
                     name="message"
                     className="w-full p-2 border bg-transparent border-gray-300 rounded focus:outline-none focus:border-purple-500 h-32 resize-none"
                     required
+                    onChange={(e) => {
+                        setMessage(e.target.value);
+                      }}
                     />
                 </div>
                 <div className="text-center">

@@ -10,7 +10,7 @@ export default function Intro(){
     return(
         <div className='flex flex-col items-center  lg:flex-row text py-14'>
             <div className="w-full lg:w-[50%]">
-                <h2 className='text-center md:text-left text-xl py-2 font-medium md:text-6xl'>Hi, I&apos;m    <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-purple-500 relative inline-block">
+                <h2 className='text-center md:text-left text-xl py-2 font-medium md:text-6xl'>Hi, I&apos;m    <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-[#F0DE36] relative inline-block">
                         <span className="relative text-white">Naol</span>
                     </span> 👀
                 </h2>

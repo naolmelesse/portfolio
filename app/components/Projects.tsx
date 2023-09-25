@@ -10,10 +10,6 @@ export default function Projects(){
         <div className="py-10]">
         <div>
           <h3 className="text-3xl py-1  ">Projects</h3>
-          <p className="text-md py-2 leading-8 text-gray-800 ">
-          In my portfolio, you will find a diverse range of projects that highlight
-           my <span className="text-purple-500">skills</span> and <span className="text-purple-500">creativity</span>. Each project showcases my ability to combine aesthetic appeal with technical proficiency.
-          </p>
         </div>
         <div className="p-2 md:my-10 flex flex-col lg:flex-row gap-5 items-center w-full text-[#000]">
               <Image 
@@ -25,9 +21,31 @@ export default function Projects(){
                 />
                 <div className="p-2 flex flex-col gap-2">
                   <h3 className=" text-lg">📌 MOSAIC - An online art marketplace</h3>
-                  <p>⛏️ Tech Stack: Nextjs TailwindCSS Strapi PostgreSQL Cloudinary Auth0</p>
                   <p className="font-light">📝 A web app to explore fine arts and purchase 
                   </p>
+                  <div className="flex gap-3 flex-wrap mt-5">
+                    <p className="w-min px-2 cursor-pointer py-1 text-[0.8rem] rounded-2xl bg-[#eceff1] font-normal normal-case text-[#4f4f4f]">
+                      NextJS
+                    </p>
+                    <p className="w-min px-2 cursor-pointer py-1 text-[0.8rem] rounded-2xl bg-[#eceff1] font-normal normal-case text-[#4f4f4f]">
+                    TailwindCSS
+                    </p>
+                    <p className="w-min px-2 cursor-pointer py-1 text-[0.8rem] rounded-2xl bg-[#eceff1] font-normal normal-case text-[#4f4f4f]">
+                    Strapi
+                    </p>
+                    <p className="w-min px-2 cursor-pointer py-1 text-[0.8rem] rounded-2xl bg-[#eceff1] font-normal normal-case text-[#4f4f4f]">
+                    Auth0
+                    </p>
+                    <p className="w-min px-2 cursor-pointer py-1 text-[0.8rem] rounded-2xl bg-[#eceff1] font-normal normal-case text-[#4f4f4f]">
+                    Stripe
+                    </p>
+                    <p className="w-min px-2 cursor-pointer py-1 text-[0.8rem] rounded-2xl bg-[#eceff1] font-normal normal-case text-[#4f4f4f]">
+                    PostgreSQL
+                    </p>
+                    <p className="w-min px-2 cursor-pointer py-1 text-[0.8rem] rounded-2xl bg-[#eceff1] font-normal normal-case text-[#4f4f4f]">
+                    Cloudinary
+                    </p>
+                  </div>
                   <br />
                   <Link href="https://mosaic-silk.vercel.app/" target="_blank"><GoLinkExternal className="inline text-[1.5rem]"/> View Project</Link>
                 </div>
@@ -36,9 +54,31 @@ export default function Projects(){
           <div className="p-2 md:my-10 flex flex-col lg:flex-row gap-5 items-center w-full text-[#000]">
               <div className="p-2 flex flex-col gap-2">
                   <h3 className=" text-lg">📌 GoBus - A bus booking web-app</h3>
-                  <p>⛏️ Tech Stack: Nextjs TailwindCSS Strapi PostgreSQL Cloudinary Auth0</p>
                   <p className="font-light">📝 A bus ticket booking web app for easy ticket booking and much more.
                   </p>
+                  <div className="flex gap-3 flex-wrap mt-5">
+                    <p className="w-min px-2 cursor-pointer py-1 text-[0.8rem] rounded-2xl bg-[#eceff1] font-normal normal-case text-[#4f4f4f]">
+                      NextJS
+                    </p>
+                    <p className="w-min px-2 cursor-pointer py-1 text-[0.8rem] rounded-2xl bg-[#eceff1] font-normal normal-case text-[#4f4f4f]">
+                    TailwindCSS
+                    </p>
+                    <p className="w-min px-2 cursor-pointer py-1 text-[0.8rem] rounded-2xl bg-[#eceff1] font-normal normal-case text-[#4f4f4f]">
+                    Strapi
+                    </p>
+                    <p className="w-min px-2 cursor-pointer py-1 text-[0.8rem] rounded-2xl bg-[#eceff1] font-normal normal-case text-[#4f4f4f]">
+                    PostgreSQL
+                    </p>
+                    <p className="w-min px-2 cursor-pointer py-1 text-[0.8rem] rounded-2xl bg-[#eceff1] font-normal normal-case text-[#4f4f4f]">
+                    Cloudinary
+                    </p>
+                    <p className="w-min px-2 cursor-pointer py-1 text-[0.8rem] rounded-2xl bg-[#eceff1] font-normal normal-case text-[#4f4f4f]">
+                    Stripe
+                    </p>
+                    <p className="w-min px-2 cursor-pointer py-1 text-[0.8rem] rounded-2xl bg-[#eceff1] font-normal normal-case text-[#4f4f4f]">
+                    Auth0
+                    </p>
+                  </div>
                   <br />
                   <Link href="https://github.com/naolmelesse/bus-booking-system" target="_blank"><GoLinkExternal className="inline text-[1.5rem]"/> View Project</Link>
                 </div>
@@ -60,11 +100,25 @@ export default function Projects(){
                 />
                 <div className="p-2 flex flex-col gap-2">
                   <h3 className=" text-lg">📌 Furgo - A car sharing web-app</h3>
-                  <p>⛏️ Tech Stack: MERN</p>
-                  <p className="font-light">📝 A web app where people can host their car for a few days or get a car from host nearby. The idea is to create 
-                    a platform where people can get a car nearby easily and with affordable prices from others. Or people can make money of their
-                    extra car that&apos;s laying around or start a small car hosting business. 
+                  <p className="font-light">📝 A web app for a car sharing marketplace. 
                   </p>
+                  <div className="flex gap-3 flex-wrap mt-5">
+                    <p className="w-min px-2 cursor-pointer py-1 text-[0.8rem] rounded-2xl bg-[#eceff1] font-normal normal-case text-[#4f4f4f]">
+                      ReactJS
+                    </p>
+                    <p className="w-min px-2 cursor-pointer py-1 text-[0.8rem] rounded-2xl bg-[#eceff1] font-normal normal-case text-[#4f4f4f]">
+                    NextJS
+                    </p>
+                    <p className="w-min px-2 cursor-pointer py-1 text-[0.8rem] rounded-2xl bg-[#eceff1] font-normal normal-case text-[#4f4f4f]">
+                    ExpressJS
+                    </p>
+                    <p className="w-min px-2 cursor-pointer py-1 text-[0.8rem] rounded-2xl bg-[#eceff1] font-normal normal-case text-[#4f4f4f]">
+                    MongoDB
+                    </p>
+                    <p className="w-min px-2 cursor-pointer py-1 text-[0.8rem] rounded-2xl bg-[#eceff1] font-normal normal-case text-[#4f4f4f]">
+                    Stripe
+                    </p>
+                  </div>
                   <br />
                   <Link href="https://github.com/naolmelesse/furgo" target="_blank"><GoLinkExternal className="inline text-[1.5rem]"/> View Project</Link>
                 </div>
