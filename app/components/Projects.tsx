@@ -47,7 +47,10 @@ export default function Projects(){
                     </p>
                   </div>
                   <br />
-                  <Link href="https://mosaic-silk.vercel.app/" target="_blank"><GoLinkExternal className="inline text-[1.5rem]"/> View Project</Link>
+                  <div className="flex gap-5">
+                    <Link href="https://github.com/naolmelesse/mosaic" target="_blank"><GoLinkExternal className="inline text-[1.5rem]"/> View on Gihub</Link>
+                    <Link href="https://mosaic-silk.vercel.app/" target="_blank"><GoLinkExternal className="inline text-[1.5rem]"/> View Live</Link>
+                  </div>
                 </div>
           </div>
         <div className="flex flex-col items-center justify-center flex-wrap gap-10 py-10">
@@ -80,7 +83,11 @@ export default function Projects(){
                     </p>
                   </div>
                   <br />
-                  <Link href="https://gobus-liard.vercel.app/" target="_blank"><GoLinkExternal className="inline text-[1.5rem]"/> View Project</Link>
+                  <div className="flex gap-5">
+                    <Link href="https://github.com/naolmelesse/gobus" target="_blank"><GoLinkExternal className="inline text-[1.5rem]"/> View on Github</Link>
+                    <Link href="https://gobus-liard.vercel.app/" target="_blank"><GoLinkExternal className="inline text-[1.5rem]"/> View Live</Link>
+                  </div>
+
                 </div>
               <Image 
                 alt={"Bus ticket booking website landing page"}
@@ -107,7 +114,7 @@ export default function Projects(){
                       ReactJS
                     </p>
                     <p className="w-min px-2 cursor-pointer py-1 text-[0.8rem] rounded-2xl bg-[#eceff1] font-normal normal-case text-[#4f4f4f]">
-                    NextJS
+                    NodeJS
                     </p>
                     <p className="w-min px-2 cursor-pointer py-1 text-[0.8rem] rounded-2xl bg-[#eceff1] font-normal normal-case text-[#4f4f4f]">
                     ExpressJS
@@ -120,7 +127,9 @@ export default function Projects(){
                     </p>
                   </div>
                   <br />
-                  <Link href="https://github.com/naolmelesse/furgo" target="_blank"><GoLinkExternal className="inline text-[1.5rem]"/> View Project</Link>
+                  <div className="flex gap-5">
+                    <Link href="https://github.com/naolmelesse/furgo" target="_blank"><GoLinkExternal className="inline text-[1.5rem]"/> View on Github</Link>
+                  </div>
                 </div>
           </div>
 
