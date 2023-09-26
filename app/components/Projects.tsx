@@ -80,7 +80,7 @@ export default function Projects(){
                     </p>
                   </div>
                   <br />
-                  <Link href="https://github.com/naolmelesse/bus-booking-system" target="_blank"><GoLinkExternal className="inline text-[1.5rem]"/> View Project</Link>
+                  <Link href="https://gobus-liard.vercel.app/" target="_blank"><GoLinkExternal className="inline text-[1.5rem]"/> View Project</Link>
                 </div>
               <Image 
                 alt={"Bus ticket booking website landing page"}
