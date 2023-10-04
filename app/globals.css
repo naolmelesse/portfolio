@@ -7,9 +7,10 @@
   src: url("../public/Burtons.otf");
 }
 
+*{
+  user-select: none;
+}
+
 body{
   background-color: #F1EFEF;
-  /* background-image: url('../public/galaxy.avif');
-  background-attachment: fixed;
-  background-size: cover; */
 }
