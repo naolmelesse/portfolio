@@ -3,7 +3,6 @@ import { NextResponse } from "next/server";
 
 const API_KEY : any = process.env.SENDGRID_API_KEY;
 sendgrid.setApiKey(API_KEY);
-
 export async function POST(req: any) {
   try {
     const data = await  req.json();
@@ -104,7 +103,6 @@ export async function POST(req: any) {
       </html>
 `
     });
-    console.log("hereeeee");
     return NextResponse.json({ error: null });
   } catch (error: any) {
     console.log(error.message);
