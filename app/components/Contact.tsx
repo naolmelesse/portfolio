@@ -76,18 +76,18 @@ export default function Contact(){
     };
 
     return(
-    <div className="flex flex-col lg:flex-row items-center justify-center w-full bg-cover text-gray-100 mx-[auto]"    style={{
+    <div className="flex flex-col lg:flex-row items-center justify-center w-full bg-cover text-[#fff] mx-[auto]"    style={{
         backgroundImage: `url('/space-2.jpg')`
         }}>
-            <h2 className="md:text-[4rem] text-center font-semibold mb-4">Make Contact</h2>
+            <h2 className="md:text-[4rem] text-center text-[#fff] font-semibold mb-4">Make Contact</h2>
         <div className="lg:w-1/2 p-6">
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} className="backdrop-blur-sm bg-white/30 p-3 rounded-xl">
                 <div className="mb-4">
-                    <label htmlFor="name" className="block text-gray-100 font-medium mb-2">Name<span className="text-red-500">*</span></label>
+                    <label htmlFor="name" className="block text-[#fff] font-medium mb-2">Name<span className="text-red-500">*</span></label>
                     <input
                         type="text"
                         name="name"
-                        className="w-full p-2 border bg-transparent border-gray-300 rounded focus:outline-none focus:border-purple-800"
+                        className="w-full p-2 border bg-transparent  rounded font-light focus:outline-none focus:border-purple-800"
                         required
                         onChange={(e) => {
                             setFullname(e.target.value);
@@ -95,11 +95,11 @@ export default function Contact(){
                     />
                 </div>
                 <div className="mb-4">
-                    <label htmlFor="email" className="block text-gray-100 font-medium mb-2">Email<span className="text-red-500">*</span></label>
+                    <label htmlFor="email" className="block text-[#fff] font-medium mb-2">Email<span className="text-red-500">*</span></label>
                     <input
                         type="email"
                         name="email"  
-                        className="w-full p-2 border bg-transparent border-gray-300 rounded focus:outline-none focus:border-purple-800"
+                        className="w-full p-2 border bg-transparent  rounded font-light focus:outline-none focus:border-purple-800"
                         required
                         onChange={(e) => {
                             setEmail(e.target.value);
@@ -109,7 +109,7 @@ export default function Contact(){
                 <div className="mb-4">
                     <label
                         htmlFor="subject"
-                        className="block text-gray-100 font-medium mb-2">
+                        className="block text-[#fff] font-medium mb-2">
                         Subject<span className="text-red-500">*</span>
                     </label>
                     <input
@@ -119,15 +119,15 @@ export default function Contact(){
                         onChange={(e) => {
                         setSubject(e.target.value);
                         }}
-                        className="w-full p-2 border bg-transparent border-gray-300 rounded focus:outline-none focus:border-purple-800"
+                        className="w-full p-2 border bg-transparent  rounded font-light focus:outline-none focus:border-purple-800"
                     />
                 </div>
                 <div className="mb-4">
-                    <label htmlFor="message" className="block text-gray-100 font-medium mb-2">Message<span className="text-red-500">*</span></label>
+                    <label htmlFor="message" className="block text-[#fff] font-medium mb-2">Message<span className="text-red-500">*</span></label>
                     <textarea
                     id="message"
                     name="message"
-                    className="w-full p-2 border bg-transparent border-gray-300 rounded focus:outline-none focus:border-purple-500 h-32 resize-none"
+                    className="w-full p-2 border bg-transparent  rounded font-light focus:outline-none focus:border-purple-500 h-32 resize-none"
                     required
                     onChange={(e) => {
                         setMessage(e.target.value);
@@ -137,7 +137,7 @@ export default function Contact(){
                 <div className="text-center">
                     <button
                     type="submit"
-                    className="bg-transparent backdrop-blur border text-white py-2 px-4 rounded hover:backdrop-blur-lg transition duration-300"
+                    className="bg-stone-100 border text-[#111] py-2 px-4 rounded-md hover:backdrop-blur-lg transition duration-300"
                     >
                     {buttonText}
                     </button>
