@@ -52,7 +52,7 @@ export default function Projects() {
           <Separator className="my-4" />
           <p className="font-medium my-2">Details:</p>
           <p>A web app to explore fine arts and purchase </p>
-          <p className="my-2"><span className="font-medium">Tip!</span> Use coupon - 'FIRSTBUY'</p>
+          <p className="my-2"><span className="font-medium">Tip!</span> Use coupon - &apos;FIRSTBUY&apos;</p>
           <p className="my-2"><span className="font-medium">Payment</span> Use card: 4242 4242 4242 4242 EXP:04/24 CVC:424</p>
           <div className="flex gap-3 flex-wrap my-5">
             <Badge variant="outline">NextJS</Badge>
