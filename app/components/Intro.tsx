@@ -16,8 +16,8 @@ export default function Intro(){
                 </h2>
                 <h3 className=' text-xl py-2  md:text-3xl'>Front-end Developer</h3>
                 <p className='text-[0.7rem] md:text-[1rem] font-light py-5 md:leading-8 text-gray-800'>
-                    I am a front-end developer with expertise in React.js and Next.js. I have experience in developing medium to enterprise-level
-                    web applications using various technologies and frameworks. As a front-end developer, 
+                    I am a front-end developer with expertise in React.js and Next.js. I have experience in developing small to medium-level 
+                     web applications using various technologies and frameworks. As a front-end developer, 
                     I love solving problems and bringing people&apos;s ideas to life. I am always finding new ways
                     to develop myself and follow current tech trends.
                 </p>
