@@ -76,7 +76,7 @@ export default function Contact(){
     };
 
     return(
-    <div className="flex flex-col lg:flex-row items-center justify-center w-full bg-cover text-[#fff] mx-[auto]"    style={{
+    <div className="flex flex-col lg:flex-row items-center justify-center w-full bg-cover text-[#fff] mx-[auto]" id="contact"   style={{
         backgroundImage: `url('/space-2.jpg')`
         }}>
             <h2 className="md:text-[4rem] text-center text-[#fff] font-semibold mb-4">Make Contact</h2>
@@ -87,7 +87,7 @@ export default function Contact(){
                     <input
                         type="text"
                         name="name"
-                        className="w-full p-2 border bg-transparent  rounded font-light focus:outline-none focus:border-purple-800"
+                        className="w-full p-2 border bg-transparent  rounded font-light focus:outline-none focus:border-[#F0DE36]"
                         required
                         onChange={(e) => {
                             setFullname(e.target.value);
@@ -99,7 +99,7 @@ export default function Contact(){
                     <input
                         type="email"
                         name="email"  
-                        className="w-full p-2 border bg-transparent  rounded font-light focus:outline-none focus:border-purple-800"
+                        className="w-full p-2 border bg-transparent  rounded font-light focus:outline-none focus:border-[#F0DE36]"
                         required
                         onChange={(e) => {
                             setEmail(e.target.value);
@@ -119,7 +119,7 @@ export default function Contact(){
                         onChange={(e) => {
                         setSubject(e.target.value);
                         }}
-                        className="w-full p-2 border bg-transparent  rounded font-light focus:outline-none focus:border-purple-800"
+                        className="w-full p-2 border bg-transparent  rounded font-light focus:outline-none focus:border-[#F0DE36]"
                     />
                 </div>
                 <div className="mb-4">
@@ -127,7 +127,7 @@ export default function Contact(){
                     <textarea
                     id="message"
                     name="message"
-                    className="w-full p-2 border bg-transparent  rounded font-light focus:outline-none focus:border-purple-500 h-32 resize-none"
+                    className="w-full p-2 border bg-transparent  rounded font-light focus:outline-none focus:border-[#F0DE36] h-32 resize-none"
                     required
                     onChange={(e) => {
                         setMessage(e.target.value);

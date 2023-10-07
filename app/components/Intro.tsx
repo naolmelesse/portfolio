@@ -12,7 +12,7 @@ export default function Intro(){
             <div className="w-full lg:w-[50%]">
                 <h2 className='text-center md:text-left text-xl py-2 font-medium md:text-6xl'>Hi, I&apos;m    <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-[#F0DE36] relative inline-block">
                         <span className="relative text-white">Naol</span>
-                    </span> 👀
+                    </span> 👨‍🚀
                 </h2>
                 <h3 className=' text-xl py-2  md:text-3xl'>Front-end Developer</h3>
                 <p className='text-[0.7rem] md:text-[1rem] font-light py-5 md:leading-8 text-gray-800'>
@@ -21,7 +21,7 @@ export default function Intro(){
                     I love solving problems and bringing people&apos;s ideas to life. I am always finding new ways
                     to develop myself and follow current tech trends.
                 </p>
-                <div className="text-3xl flex justify-center lg:justify-start gap-8 py-3 text-gray-600">
+                <div className="text-3xl flex justify-center lg:justify-start gap-8 py-3 text-[#040D12]">
                     <a className="hover:text-gray-800 transition duration-400" target="_blank" href="https://www.linkedin.com/in/naol-melesse-706585226/"><AiFillLinkedin /></a> 
                     <a className="hover:text-gray-800 transition duration-400" target="_blank" href="https://www.github.com/naolmelesse"><AiFillGithub /></a> 
                     <a className="hover:text-gray-800 transition duration-400" target="_blank" href="mailto:naolmelesse91@gmail.com"><AiFillMail /></a>
