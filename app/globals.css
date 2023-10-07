@@ -77,4 +77,7 @@
 
 body{
   background-color: #F1EFEF !important;
+  user-select: none;
+  /* background-image: url('../public/space.jpg') !important;
+  background-size: contain; */
 }

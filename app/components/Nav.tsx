@@ -4,12 +4,17 @@ import { BsCodeSlash } from "react-icons/bs";
 import { FiMail } from "react-icons/fi";
 import { FaUserAstronaut } from "react-icons/fa";
 import { TbDownload } from "react-icons/tb"
+import Image from "next/image";
 
 export default function Nav(){
     return(
         <nav className=' py-10 flex items-center justify-between w-4/5 mx-[auto] bg-white px-10 md:px-20 lg:px-30'>
-
-        <h1 className='font-burtons text-xl' >{"</NM>"}</h1>
+        <Image
+          src="/logo.png"
+          alt="Naol Melesse Logo"
+          width={100}
+          height={38}
+        />
         <div className='invisible lg:visible flex items-center p-2  bg-[#F5F5F5] z-10 fixed left-1/3 rounded-full' >
           <div className="flex justify-center gap-2 mx-4 items-center"><BiHomeAlt2 className="text-xl"/> <Link className='hover:underline hover:underline-offset-8 decoration-[#F0DE36] text-gray-800 text-lg' href="/">Home</Link></div> 
           <div className="flex justify-center gap-2 mx-4 items-center"><FaUserAstronaut className="text-xl"/> <Link className='hover:underline hover:underline-offset-8 decoration-[#F0DE36] text-gray-800 text-lg' href="/about">About</Link></div> 
