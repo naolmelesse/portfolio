@@ -8,7 +8,7 @@ import Link from "next/link";
 
 export default function Projects(){
     return(
-        <div className="py-10]">
+        <div className="py-10]" id="projects">
         <div>
           <h3 className="text-3xl py-1  ">Projects</h3>
         </div>
