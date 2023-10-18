@@ -6,7 +6,7 @@ import {
 
 export default function Footer(){
     return(
-        <footer  className='w-4/5 mx-[auto] bg-white py-5 text-gray-700 px-10 md:px-20 lg:px-30'>
+        <footer  className='lg:w-4/5 mx-[auto] bg-white py-5 text-gray-700 px-10 md:px-20 lg:px-30'>
             <hr />
             <div className="flex flex-col lg:flex-row items-center justify-between">
                 <div className="flex justify-start gap-8 py-3 text-[#000] text-[1.5rem]">

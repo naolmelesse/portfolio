@@ -6,7 +6,7 @@ import Experience from "./components/Experience";
 
 export default function Home() {
   return (
-    <main className='w-4/5 mx-[auto] bg-[#fff] px-10 md:px-20 lg:px-30'>
+    <main className='lg:w-4/5 mx-[auto] bg-[#fff] px-10 md:px-20 lg:px-30'>
       <Intro/>
       <Skills/>
       <Experience/>

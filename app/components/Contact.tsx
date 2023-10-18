@@ -76,14 +76,12 @@ export default function Contact(){
     };
 
     return(
-    <div className="flex flex-col lg:flex-row items-center justify-center w-full bg-cover text-[#fff] mx-[auto]" id="contact"   style={{
-        backgroundImage: `url('/space-2.jpg')`
-        }}>
-            <h2 className="md:text-[4rem] text-center text-[#fff] font-semibold mb-4">Make Contact</h2>
-        <div className="lg:w-1/2 p-6">
+    <div className="flex flex-col lg:flex-row items-center justify-center lg:gap-12 w-full bg-cover lg:text-[#fff] mx-[auto] lg:bg-[url('/space-2.jpg')]" id="contact">
+        <h2 className="text-2xl md:text-[4rem] text-center lg:text-[#fff] font-semibold mb-4">Make Contact</h2>
+        <div className="w-full lg:w-[40%] p-3 md:p-6">
             <form onSubmit={handleSubmit} className="backdrop-blur-sm bg-white/30 p-3 rounded-xl">
                 <div className="mb-4">
-                    <label htmlFor="name" className="block text-[#fff] font-medium mb-2">Name<span className="text-red-500">*</span></label>
+                    <label htmlFor="name" className="block lg:text-[#fff] font-medium mb-2">Name<span className="text-red-500">*</span></label>
                     <input
                         type="text"
                         name="name"
@@ -95,7 +93,7 @@ export default function Contact(){
                     />
                 </div>
                 <div className="mb-4">
-                    <label htmlFor="email" className="block text-[#fff] font-medium mb-2">Email<span className="text-red-500">*</span></label>
+                    <label htmlFor="email" className="block lg:text-[#fff] font-medium mb-2">Email<span className="text-red-500">*</span></label>
                     <input
                         type="email"
                         name="email"  
@@ -109,7 +107,7 @@ export default function Contact(){
                 <div className="mb-4">
                     <label
                         htmlFor="subject"
-                        className="block text-[#fff] font-medium mb-2">
+                        className="block lg:text-[#fff] font-medium mb-2">
                         Subject<span className="text-red-500">*</span>
                     </label>
                     <input
@@ -123,7 +121,7 @@ export default function Contact(){
                     />
                 </div>
                 <div className="mb-4">
-                    <label htmlFor="message" className="block text-[#fff] font-medium mb-2">Message<span className="text-red-500">*</span></label>
+                    <label htmlFor="message" className="block lg:text-[#fff] font-medium mb-2">Message<span className="text-red-500">*</span></label>
                     <textarea
                     id="message"
                     name="message"
