@@ -76,7 +76,7 @@ export default function Contact(){
     };
 
     return(
-    <div className="flex flex-col lg:flex-row items-center justify-center lg:gap-12 w-full bg-cover lg:text-[#fff] mx-[auto] lg:bg-[url('/space-2.jpg')]" id="contact">
+    <div className="flex flex-col lg:flex-row items-center justify-around w-full bg-cover lg:text-[#fff] mx-[auto] lg:bg-[url('/space-2.jpg')]" id="contact">
         <h2 className="text-2xl md:text-[4rem] text-center lg:text-[#fff] font-semibold mb-4">Make Contact</h2>
         <div className="w-full lg:w-[40%] p-3 md:p-6">
             <form onSubmit={handleSubmit} className="backdrop-blur-sm bg-white/30 p-3 rounded-xl">
@@ -85,7 +85,7 @@ export default function Contact(){
                     <input
                         type="text"
                         name="name"
-                        className="w-full p-2 border bg-transparent  rounded font-light focus:outline-none focus:border-[#F0DE36]"
+                        className="w-full p-2 border bg-transparent  rounded-lg font-light focus:outline-none focus:border-[#F0DE36]"
                         required
                         onChange={(e) => {
                             setFullname(e.target.value);
@@ -97,7 +97,7 @@ export default function Contact(){
                     <input
                         type="email"
                         name="email"  
-                        className="w-full p-2 border bg-transparent  rounded font-light focus:outline-none focus:border-[#F0DE36]"
+                        className="w-full p-2 border bg-transparent  rounded-lg font-light focus:outline-none focus:border-[#F0DE36]"
                         required
                         onChange={(e) => {
                             setEmail(e.target.value);
@@ -117,7 +117,7 @@ export default function Contact(){
                         onChange={(e) => {
                         setSubject(e.target.value);
                         }}
-                        className="w-full p-2 border bg-transparent  rounded font-light focus:outline-none focus:border-[#F0DE36]"
+                        className="w-full p-2 border bg-transparent  rounded-lg font-light focus:outline-none focus:border-[#F0DE36]"
                     />
                 </div>
                 <div className="mb-4">
@@ -125,7 +125,7 @@ export default function Contact(){
                     <textarea
                     id="message"
                     name="message"
-                    className="w-full p-2 border bg-transparent  rounded font-light focus:outline-none focus:border-[#F0DE36] h-32 resize-none"
+                    className="w-full p-2 border bg-transparent  rounded-lg font-light focus:outline-none focus:border-[#F0DE36] h-32 resize-none"
                     required
                     onChange={(e) => {
                         setMessage(e.target.value);
@@ -135,7 +135,7 @@ export default function Contact(){
                 <div className="text-center">
                     <button
                     type="submit"
-                    className="bg-stone-100 border text-[#111] py-2 px-4 rounded-md hover:backdrop-blur-lg transition duration-300"
+                    className="bg-stone-100 text-[#111] py-2 px-4 rounded-md hover:scale-105 transition duration-300"
                     >
                     {buttonText}
                     </button>
