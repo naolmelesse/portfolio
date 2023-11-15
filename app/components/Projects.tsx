@@ -1,6 +1,7 @@
 import Image from "next/image";
 import furgo from "/public/furgo.png";
 import gobus from "/public/gobus.png";
+import dash from "/public/sms-dashboard.png";
 import mosaic from "/public/mosaic.png";
 import gameville from "/public/gameville.png";
 import { GoLinkExternal } from "react-icons/go";
@@ -16,6 +17,26 @@ export default function Projects() {
         <h3 className="text-3xl py-1  ">Projects</h3>
       </div>
       <div className="flex flex-col items-center justify-center flex-wrap gap-10 py-10">
+
+        <div className="aspect-video px-5 py-2 md:my-10 border rounded-xl">
+          <h3 className="font-medium text-xl my-4">📌 Upcoming Project - A school management dashboard</h3>
+          <Image
+            alt={"School management system dashboard"}
+            src={dash}
+          />
+          <Separator className="my-4" />
+          <p className="font-medium my-2">Details:</p>
+          <p> An admin dashboard for a school with rich features.</p>
+
+          <div className="flex gap-3 flex-wrap my-5">
+            <Badge variant="outline">React</Badge>
+            <Badge variant="outline">NextJS 14</Badge>
+            <Badge variant="outline">TailwindCSS</Badge>
+            <Badge variant="outline">React-chartjs-2</Badge>
+            <Badge variant="outline">Auth0</Badge>
+          </div>
+
+        </div>
 
         <div className="aspect-video px-5 py-2 md:my-10 border rounded-xl">
           <h3 className="font-medium text-xl my-4">📌 GoBus - A bus booking web-app</h3>
@@ -39,10 +60,11 @@ export default function Projects() {
             <Badge variant="outline">Auth0</Badge>
           </div>
           <div className="flex gap-5 my-2">
-            <Link href="https://github.com/naolmelesse/gobus" target="_blank"><GoLinkExternal className="inline text-[1.5rem]" /> View on Github</Link>
-            <Link href="https://gobus-liard.vercel.app/" target="_blank"><GoLinkExternal className="inline text-[1.5rem]" /> View Live</Link>
+            <Link className=" bg-[#000] text-[#fff] py-2 px-4 rounded-lg flex items-center gap-2 hover:bg-[#444] transition duration-300" href="https://github.com/naolmelesse/gobus" target="_blank">View on Github<GoLinkExternal className="inline text-[1.5rem]" /></Link>
+            <Link className=" bg-[#000] text-[#fff] py-2 px-4 rounded-lg flex items-center gap-2 hover:bg-[#444] transition duration-300" href="https://gobus-liard.vercel.app/" target="_blank">View Live <GoLinkExternal className="inline text-[1.5rem]" /></Link>
           </div>
         </div>
+
         <div className="aspect-video px-5 py-2 md:my-10 border rounded-xl">
           <h3 className="font-medium text-xl my-4">📌 MOSAIC - An online art marketplace</h3>
           <Image
@@ -64,8 +86,8 @@ export default function Projects() {
             <Badge variant="outline">Cloudinary</Badge>
           </div>
           <div className="flex gap-5 my-2">
-            <Link href="https://github.com/naolmelesse/mosaic" target="_blank"><GoLinkExternal className="inline text-[1.5rem]" /> View on Gihub</Link>
-            <Link href="https://mosaic-silk.vercel.app/" target="_blank"><GoLinkExternal className="inline text-[1.5rem]" /> View Live</Link>
+            <Link className=" bg-[#000] text-[#fff] py-2 px-4 rounded-lg flex items-center gap-2 hover:bg-[#444] transition duration-300" href="https://github.com/naolmelesse/mosaic" target="_blank">View on Github <GoLinkExternal className="inline text-[1.5rem]" /></Link>
+            <Link className=" bg-[#000] text-[#fff] py-2 px-4 rounded-lg flex items-center gap-2 hover:bg-[#444] transition duration-300" href="https://mosaic-silk.vercel.app/" target="_blank">View Live <GoLinkExternal className="inline text-[1.5rem]" /></Link>
           </div>
 
         </div>
@@ -87,8 +109,8 @@ export default function Projects() {
             <Badge variant="outline">Shadcn UI</Badge>
           </div>
           <div className="flex gap-5 my-2">
-            <Link href="https://github.com/naolmelesse/game-ville" target="_blank"><GoLinkExternal className="inline text-[1.5rem]" /> View on Gihub</Link>
-            <Link href="https://game-ville.vercel.app/" target="_blank"><GoLinkExternal className="inline text-[1.5rem]" /> View Live</Link>
+            <Link className=" bg-[#000] text-[#fff] py-2 px-4 rounded-lg flex items-center gap-2 hover:bg-[#444] transition duration-300" href="https://github.com/naolmelesse/game-ville" target="_blank">View on Github <GoLinkExternal className="inline text-[1.5rem]" /></Link>
+            <Link className=" bg-[#000] text-[#fff] py-2 px-4 rounded-lg flex items-center gap-2 hover:bg-[#444] transition duration-300" href="https://game-ville.vercel.app/" target="_blank">View Live <GoLinkExternal className="inline text-[1.5rem]" /></Link>
           </div>
         </div>
 
@@ -108,8 +130,8 @@ export default function Projects() {
             <Badge variant="outline">MongoDB</Badge>
             <Badge variant="outline">Stripe</Badge>
           </div>
-          <div className="my-2">
-            <Link href="https://github.com/naolmelesse/furgo" target="_blank"><GoLinkExternal className="inline text-[1.5rem]" /> View on Github</Link>
+          <div className="my-2 flex">
+            <Link className=" bg-[#000] text-[#fff] py-2 px-4 rounded-lg flex items-center gap-2 hover:bg-[#444] transition duration-300" href="https://github.com/naolmelesse/furgo" target="_blank">View on Github <GoLinkExternal className="inline text-[1.5rem]" /></Link>
           </div>
         </div>
 
