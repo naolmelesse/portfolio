@@ -21,10 +21,10 @@ export default function Experience() {
       />
 
       <ExperienceCard
-        position='Junior QA Engineer + Frontend Developer'
+        position='Junior QA Engineer'
         company='Auditorium'
         location='Remote (London, UK)'
-        date='Jan - Apr, 2023'
+        date='Mar, 2023 - Current'
         technicalSkills={[
           'Cypress',
           'Git',
