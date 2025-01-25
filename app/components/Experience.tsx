@@ -24,7 +24,7 @@ export default function Experience() {
         position='Junior QA Engineer'
         company='Auditorium'
         location='Remote (London, UK)'
-        date='Mar, 2023 - Current'
+        date='Mar, 2024 - Current'
         technicalSkills={[
           'Cypress',
           'Git',
