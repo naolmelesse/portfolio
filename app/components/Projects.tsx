@@ -1,6 +1,6 @@
 import furgo from '/public/furgo.png';
 import gobus from '/public/gobus.png';
-import dash from '/public/sms-dashboard.png';
+import lms from '/public/lms.png';
 import mosaic from '/public/mosaic.png';
 import gameville from '/public/gameville.png';
 import ProjectCard from './projectCard';
@@ -14,10 +14,10 @@ export default function Projects() {
       <div className='flex flex-col items-center justify-center flex-wrap gap-10 py-10'>
         {/* School Management Dashboard */}
         <ProjectCard
-          title={'Upcoming Project - A school management dashboard'}
-          details='An admin dashboard for a school with rich features.'
-          image={dash}
-          imageAltText='School management system dashboard'
+          title={'Zion - A learning management system'}
+          details='A web app for college students to access school events details, class and exam schedules, grades and more.'
+          image={lms}
+          imageAltText='Learning management system'
           technologies={[
             'React',
             'NextJS 14',
@@ -25,6 +25,11 @@ export default function Projects() {
             'React-chartjs-2',
             'Auth0',
           ]}
+          hasLinks={true}
+          links={{
+            githubLink: 'https://github.com/naolmelesse/sms-dashboard',
+            liveLink: 'https://zion-dashboard.vercel.app/'
+          }}
         />
 
         {/* GoBus - A bus booking web-app */}
